@@ -1,0 +1,109 @@
+body {
+  background-image: linear-gradient(to bottom, #91e3fa 0%, #0153d6 100%);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  border: 5px solid purple;
+  box-shadow: 5px 10px #0153d6;
+  color: #68c2f7;
+  font-family: "Playfair Display", serif;
+  margin: 10px 40px;
+}
+
+.morningBackground {
+  background-image: linear-gradient(-45deg, #874da2 0%, #c43a30 100%);
+}
+.nightBackground {
+  background-image: linear-gradient(to top, #434343 0%, black 100%);
+}
+.dayBackground {
+  background-image: linear-gradient(to bottom, #91e3fa 0%, #0153d6 100%);
+}
+.morningHeader {
+  background-image: url("/weather_images/glow_sunrise.jpg");
+}
+.nightHeader {
+  background-image: url("/weather_images/black_galaxy.jpg");
+}
+.dayHeader {
+  background-image: url("/weather_images/fluffy-clouds2.jpg");
+}
+@media only screen and (min-width: 1001px) {
+  .mainImage {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0;
+    padding: 20px 0;
+    float: right;
+  }
+  .hi {
+    margin-left: 130px;
+  }
+}
+.weatherContainer {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 1000px) {
+  .mainImage {
+    display: flex;
+    flex-direction: row;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 40%;
+  }
+
+  .weatherContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .weatherContainer {
+    flex-direction: column;
+  }
+  .mainImage {
+    display: block;
+    max-width: 400px;
+    margin: 0;
+    padding: 0 0 50px 0;
+    float: left;
+  }
+  .currentImage {
+    display: none;
+  }
+  .weekly {
+    color: purple;
+    font-size: 2em;
+    margin: 1.5em 6em 0;
+  }
+  .day {
+    text-align: right;
+    padding-top: 8px;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+  }
+  .weeklySymbols {
+    display: none;
+  }
+  .description {
+    display: none;
+  }
+  .descSm {
+    display: inline;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .hi {
+    margin-left: 0;
+  }
+}

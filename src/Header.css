@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+  font-size: 90px;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  text-align: center;
+  color: purple;
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  position: relative;
+  background: rgb(116, 246, 255);
+  background-image: url(./weather_images/fluffyClouds2.png);
+  width: 100%;
+  background-size: cover;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+.btn {
+  font-family: "Playfair Display", serif;
+  margin-left: 0.5em;
+  box-shadow: 1px 1px #0153d6;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.btnInfo {
+  box-shadow: 1px 1px #02899b;
+}

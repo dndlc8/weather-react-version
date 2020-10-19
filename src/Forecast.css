@@ -1,0 +1,36 @@
+.weekly {
+  color: purple;
+  font-size: 2em;
+  margin: 1.5em 2.5em 0;
+}
+.weeklySymbols {
+  display: block;
+  top: -30px;
+  width: 60px;
+  padding-top: 40px;
+}
+.description {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.descSm {
+  display: none;
+}
+.day {
+  text-align: left;
+  padding-top: 8px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+.hi {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.1em;
+}
+.low {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.1em;
+}

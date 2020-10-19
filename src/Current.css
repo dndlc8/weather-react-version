@@ -1,0 +1,61 @@
+h3 {
+  text-align: left;
+  color: purple;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.cityName {
+  text-align: left;
+  color: purple;
+  font-size: 45px;
+  font-family: "Playfair Display", serif;
+}
+
+.current {
+  margin: 10px 10px 10px 30px;
+}
+
+.temp {
+  font-size: 6.3em;
+  color: #0153d6;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.farenheit {
+  font-size: 6.3em;
+  color: #0153d6;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.celsius {
+  font-size: 6.3em;
+  color: #0153d6;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.measurement {
+  font-size: 40px;
+}
+
+.measurement:visited {
+  color: rgba(1, 83, 214, 1);
+  text-decoration: none;
+}
+
+.currentTemps {
+  font-size: 1.8em;
+  color: purple;
+  text-align: justify;
+}
+.currentTempsFont {
+  font-family: "Playfair Display", serif;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: row;
+}
