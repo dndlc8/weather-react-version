@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Current.css";
 import Overcast from "./weather_images/weather_symbols/overcast.png";
 
