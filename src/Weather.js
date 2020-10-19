@@ -10,11 +10,12 @@ export default function Weather() {
   return (
     <div className="Weather">
       <Header />
+      <div className = "container">
       <Current />
       <Forecast />
       <p>Have A Wonderful Day!</p>
       <Footer />
- 
+ </div>
     </div>
   );
 }

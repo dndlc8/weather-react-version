@@ -8,6 +8,7 @@ export default function Footer() {
         className="git"
         href="https://github.com/dndlc8/weather-site"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Open-source code
       </a>
